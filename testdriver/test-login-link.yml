@@ -1,0 +1,12 @@
+version: 4.0.57
+steps:
+  - prompt: Click on the "Log in" button.
+    commands:
+      - command: hover-text
+        text: Log in
+        description: log in button in the header
+        action: click
+  - prompt: Assert that the login page is displayed.
+    commands:
+      - command: assert
+        expect: Log in to your Notion account
