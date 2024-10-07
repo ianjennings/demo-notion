@@ -1,0 +1,18 @@
+version: 4.0.57
+steps:
+  - prompt: Click on the "Request a demo" link.
+    commands:
+      - command: hover-text
+        text: Request a demo
+        description: link to request a demo
+        action: click
+  - prompt: Click on the "Request a demo" link.
+    commands:
+      - command: hover-text
+        text: Request a demo
+        description: link to request a demo
+        action: click
+  - prompt: Assert that the demo request page loads.
+    commands:
+      - command: assert
+        expect: the text "Contact our sales team" is visible
