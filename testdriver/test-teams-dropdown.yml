@@ -1,0 +1,12 @@
+version: 4.0.57
+steps:
+  - prompt: Click on the "Teams" dropdown.
+    commands:
+      - command: hover-text
+        text: Teams
+        description: dropdown menu in the header
+        action: click
+  - prompt: Assert that the teams options are displayed.
+    commands:
+      - command: assert
+        expect: the teams options are displayed
