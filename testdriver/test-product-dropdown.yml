@@ -1,0 +1,12 @@
+version: 4.0.57
+steps:
+  - prompt: Click on the "Product" dropdown.
+    commands:
+      - command: hover-text
+        text: Product
+        description: dropdown menu in the header
+        action: click
+  - prompt: Assert that the product options are displayed.
+    commands:
+      - command: assert
+        expect: the product options are displayed
