@@ -1,0 +1,82 @@
+version: 4.0.57
+steps:
+  - prompt: Click on the "Download" link.
+    commands:
+      - command: hover-text
+        text: Download
+        description: link in the header
+        action: click
+  - prompt: Click on the "Download" link.
+    commands:
+      - command: hover-text
+        text: Download
+        description: link in the header
+        action: click
+      - command: hover-text
+        text: Notion
+        description: first item in the download dropdown
+        action: click
+  - prompt: Click on the "Download" link.
+    commands:
+      - command: hover-text
+        text: Download
+        description: link in the header
+        action: click
+  - prompt: Click on the "Download" link.
+    commands:
+      - command: hover-text
+        text: Download
+        description: link in the header
+        action: click
+      - command: hover-text
+        text: Notion
+        description: first item in the download dropdown
+        action: click
+  - prompt: Click on the "Download" link.
+    commands:
+      - command: hover-text
+        text: Download
+        description: link in the header
+        action: click
+  - prompt: Click on the "Download" link.
+    commands:
+      - command: hover-text
+        text: Download
+        description: link in the header
+        action: click
+      - command: hover-text
+        text: Notion
+        description: first item in the download dropdown
+        action: click
+  - prompt: Click on the "Download" link.
+    commands:
+      - command: hover-text
+        text: Download
+        description: link in the header
+        action: click
+  - prompt: Click on the "Download" link.
+    commands:
+      - command: hover-text
+        text: Download
+        description: link in the header
+        action: click
+      - command: hover-text
+        text: Notion
+        description: first item in the download dropdown
+        action: click
+  - prompt: Click on the "Download" link.
+    commands:
+      - command: hover-text
+        text: Download
+        description: link in the header
+        action: click
+  - prompt: Click on the "Download" link.
+    commands:
+      - command: hover-text
+        text: Download
+        description: link in the header
+        action: click
+      - command: hover-text
+        text: Notion
+        description: first item in the download dropdown
+        action: click
