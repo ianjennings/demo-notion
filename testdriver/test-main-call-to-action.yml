@@ -1,0 +1,14 @@
+version: 4.0.57
+steps:
+  - prompt: Click on the "Get Notion free" button.
+    commands:
+      - command: hover-text
+        text: Get Notion free
+        description: button to download Notion for free
+        action: click
+  - prompt: Assert that the sign-up or relevant call-to-action page loads.
+    commands:
+      - command: assert
+        expect: >-
+          the sign-up page is displayed with options to continue with Google,
+          Apple, or SSO
