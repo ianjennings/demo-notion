@@ -1,0 +1,10 @@
+version: 4.0.57
+steps:
+  - prompt: Assert that the webpage loads successfully.
+    commands:
+      - command: assert
+        expect: the text "Build something beautiful." is visible
+  - prompt: Assert that the website's logo is displayed.
+    commands:
+      - command: assert
+        expect: the text "Notion" is visible
